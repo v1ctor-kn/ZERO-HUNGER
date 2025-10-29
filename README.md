@@ -23,3 +23,34 @@ The Linear Regression model achieved an R² score of ~0.75, showing reasonable a
 
 Ethical Considerations:
 Regional bias in the dataset may limit global generalization. Ensuring smallholder farmers benefit from predictive agriculture tools is essential. This solution supports sustainable agriculture by improving resource planning and reducing waste.
+AI Project on SDG 2: Zero Hunger
+
+Our project focused on Sustainable Development Goal 2 (Zero Hunger), which aims to end hunger and ensure access to safe, nutritious, and sufficient food for all. We applied supervised machine learning to help address agricultural productivity challenges by predicting crop yields based on key environmental and agricultural factors. This model can support farmers and policymakers in planning for better food production and sustainability.
+
+Step 1: Problem Definition
+
+The central problem was the inconsistent crop production caused by unpredictable weather, poor soil management, and inefficient resource use. Farmers in developing regions often struggle to estimate expected yields, which leads to food insecurity and economic loss. Our objective was to use historical agricultural data to build a predictive model that estimates crop yield based on variables such as rainfall, fertilizer usage, temperature, and area harvested.
+
+Step 2: Machine Learning Approach
+
+We used supervised learning, where the model learns from labeled data (inputs like rainfall and fertilizer, and an output — crop yield). The chosen algorithm was a Random Forest Regressor, a powerful ensemble method that combines multiple decision trees to improve accuracy and handle non-linear relationships between variables.
+
+Step 3: Data and Tools
+
+The dataset used was sourced from the Kaggle Crop Production dataset, which includes information about crop types, states, rainfall, and total production. We implemented the project using Python, primarily leveraging libraries such as Pandas for data preprocessing, Scikit-learn for modeling, and Matplotlib/Seaborn for visualization. The environment used for development was Jupyter Notebook, which provided an interactive way to document and run code step by step.
+
+Step 4: Model Building
+
+The data preprocessing phase involved cleaning missing values, encoding categorical variables (like crop names), and splitting the dataset into training and testing sets. The Random Forest model was trained on 80% of the data and tested on the remaining 20%. After training, we evaluated performance using metrics such as Mean Absolute Error (MAE) and R² score. The model achieved high predictive accuracy, showing that machine learning can be an effective tool for agricultural planning and forecasting.
+
+Step 5: Results and Insights
+
+The results indicated that rainfall and fertilizer use were the most influential factors affecting yield. This finding aligns with real-world agricultural research and emphasizes the need for balanced resource allocation. The model could help decision-makers recommend optimal farming practices or allocate support to regions at risk of low productivity.
+
+Step 6: Ethical Reflection
+
+While the project was technically successful, ethical considerations are essential. Our dataset may be biased toward certain regions or crop types, which means the model could be less accurate for underrepresented communities. To promote fairness, future work could include diverse datasets covering small-scale farmers and different climate zones. Furthermore, the solution contributes to sustainability by enabling data-driven resource management, reducing food waste, and supporting long-term food security.
+
+Conclusion
+
+This project demonstrated how AI and machine learning can directly support SDG 2 by improving food production forecasting and decision-making. By combining technical innovation with ethical responsibility, we can move closer to a world where hunger is eliminated and every person has access to nutritious food
